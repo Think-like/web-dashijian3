@@ -65,7 +65,7 @@ $(function () {
                     return layer.msg(res.message);
                 }
                 // 提交成功后处理代码
-                layer.msg("注册成功，请登录！");
+                layer.msg("登录成功！");
                 localStorage.setItem('token', res.token);
                 location.href = "/index.html";
             }
